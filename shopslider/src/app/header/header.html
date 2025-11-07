@@ -1,21 +1,15 @@
 <div class="rita--header">
   <div class="rita-logo">
-    <!-- <img src="images" alt=""> -->
-     RiTaVera
+    <img src="/Assets/image/logo.png" alt="RitaVera">
   </div>
   <div class="rita--header--nav">
     <div class="rita--top--bar">
-      <a href="#">Help</a>
-      <a href="#">Exchange</a>
-      <a href="#">Order</a>
-      <a href="#">SignUp</a>
+      <a *ngFor="let topItems of topMenuItems" href="#">{{topItems}}</a>
+      
     </div>
     <div class="rita--bottom--bar">
       <div class="rita-menu">
-        <a href="">Home</a>
-        <a href="">Products</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a *ngFor="let item of mainMenuItems" href="#">{{item}}</a>
       </div>
       <div class="rita--search-bar">
         <input type="text" class="rita-search-box" placeholder="Search">

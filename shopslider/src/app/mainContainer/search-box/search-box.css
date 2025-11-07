@@ -1,0 +1,27 @@
+.rita-search-box{
+  margin: 20px auto;
+  text-align: center;
+}
+.rita-search-box-input{
+  width: 50%;
+  height: 5.5vh;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 2px;
+  background-color: #efefef;
+  border: #28282B;
+}
+.btn{
+  padding: 5px 10px;
+  border: none;
+}
+.btn-search{
+  padding: 13px 30px;
+  background-color: #28282B;
+  margin-left: -5px;
+  color: #fff;
+}
+.rita-search-for{
+  margin: 20px auto;
+  padding: 0px 140px;
+}

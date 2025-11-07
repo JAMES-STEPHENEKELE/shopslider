@@ -1,0 +1,101 @@
+.rita-products-container{
+  margin: 50px 65px;
+  display:flex;
+  align-content: center;
+  flex-wrap:wrap;
+  padding: 5px 5vh;
+  background-color: purple;
+}
+ 
+.rita-product-item{
+  width: 280px;
+  background-color: #FDFEFE;
+  margin: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border: #efefef 2px solid;
+} 
+
+ .rita-wishlist-sale-container{
+  display: inline-block;
+  width: 270px;
+  position: absolute;
+  padding: 5px 0px;
+
+}  
+
+
+.rita-add-to-wishlist{
+  padding:2px 10px;
+  text-align: right;
+  font-size: 15px;
+  position: absolute;
+  /* background-color:blue */
+}
+
+/*
+.rita-on-sale-tag{
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #FFC000;
+  color: #28282B;
+  font-weight: bold;
+} 
+
+
+.rita-add-to-price{
+  padding:1px 5px;
+  position:absolute;
+  margin-top: -25px;
+  background-color:#28282B;
+  color:white;
+}
+  */
+
+.rita-product-image img{
+  width: 265px;
+  height: 250px;
+  background-color: #fdfdfed5;
+
+  padding-right: 10px;
+}
+
+/* img{
+  width: 265px;
+  height: 250px;
+
+} */
+.rita-product-name{
+  font-size: 14px;
+  color: #28282B;
+  margin-top: 7px;
+}
+
+.rita-product-category,
+.rita-product-available-colors{
+  font-size: 12px;
+  color: #999;
+  margin-top: 7px;
+  padding: 5px;
+}
+
+.rita-products-avaliavility{
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  padding: 2px;
+  
+ }
+ 
+.rita-product-item:hover{
+  -webkit-box-shadow: 0 0 1px #000 inset;
+  -moz-box-shadow: 0 0 1px 3px #000 inset;
+  border: #efefef 0 0 1px 3px #000 inset;
+  box-shadow: 10px 10px 18px #cccccc;
+  transform: scale(1.09);
+}  

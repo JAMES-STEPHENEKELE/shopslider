@@ -1,0 +1,10 @@
+<div class="rita-search-box">
+<!-- Using two way binding
+ <input class="rita-search-box-input" placeholder="{{searchItem}}"[value]="searchItem" (input)="updateSearchItem($event)"> -->
+ <input class="rita-search-box-input" [(ngModel)]="searchItem">
+
+  <button class="btn btn-search">Search</button>
+</div>
+<div class="rita-search-for"><p><strong>Search result for:</strong> {{ searchItem }} </p></div>
+<!-- <div class="rita-product-box-header"><h2>Dresses</h2></div>
+<div class="rita-products-box"></div> -->

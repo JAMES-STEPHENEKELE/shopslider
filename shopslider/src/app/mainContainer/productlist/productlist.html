@@ -1,0 +1,19 @@
+<div class="rita-products-container">
+  <div class="rita-product-item" *ngFor="let productItems of products">
+
+      <div class="rita-wishlist-sale-container">
+
+          <div class="rita-add-to-wishlist">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+          </div>
+      </div>
+        <div class="rita-product-image">
+          <img [src]="productItems.imageURL">
+        </div>
+        <div class="rita-add-to-price">{{productItems.price}}</div>
+        <div class="rita-product-name">{{productItems.name}}</div>
+        <div class="rita-product-categoory">{{productItems.gender}} . {{productItems.category}} . {{productItems.brand}}</div>
+        <div class="rita-product-available-colors">{{productItems.color.length}} colors . Best Seller</div>
+      
+  </div>
+</div>

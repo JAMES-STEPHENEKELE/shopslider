@@ -13,6 +13,12 @@
   color: #36454F;
   font-family: 'Concert one', cursive;
   width: 20%;
+  
+}
+.rita-logo img{
+  width: 120px;
+  height: 60px;
+  
 }
 
 .rita--header--nav{
@@ -45,7 +51,8 @@ display: flex;
 }
 
 .rita--search-bar{
-  padding: 0 3vh;
+  padding: 2vh 3vh;
+  
 }
 .rita-search-box{
   width: 170px;
@@ -57,7 +64,7 @@ display: flex;
 
 a{
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .rita--search-btn{
