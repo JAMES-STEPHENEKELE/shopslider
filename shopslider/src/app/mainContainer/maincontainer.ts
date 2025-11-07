@@ -4,12 +4,12 @@ import { Productlist } from './productlist/productlist';
 
 
 @Component({
-  selector: 'app-mainContainer',
+  selector: 'app-maincontainer',
   imports: [SearchBox,Productlist],
   templateUrl: './maincontainer.html',
   styleUrl: './maincontainer.css'
 })
-export class MainContainer {
+export class Maincontainer {
 //   name = 'product'
 //   addToStore: number = 0
 //   product = {name: 'iPhone 13',
